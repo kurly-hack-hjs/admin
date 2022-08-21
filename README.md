@@ -1,1 +1,1 @@
-# react-recoil-boilerplate
+# admin
