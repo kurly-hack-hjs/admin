@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from '@feature'
+import App from '@pages'
 import { RecoilRoot } from 'recoil'
+import { BrowserRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
 import '@styles/_reset.scss'
 
@@ -9,7 +10,9 @@ const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
     <RecoilRoot>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </RecoilRoot>
   </React.StrictMode>,
 )
