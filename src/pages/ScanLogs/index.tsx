@@ -1,9 +1,8 @@
 import { Board } from '@components'
-import { GridColDef, GridValueFormatterParams } from '@mui/x-data-grid'
+import { GridColDef } from '@mui/x-data-grid'
 import { getScanLogs } from '@src/apis/scan'
 import { Scan } from '@src/types'
 import { useEffect, useState } from 'react'
-import { format } from 'date-fns'
 import styles from './scanLogs.module.scss'
 
 const ScanLogs = () => {

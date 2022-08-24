@@ -1,9 +1,8 @@
 import { Board } from '@components'
-import { GridColDef, GridValueFormatterParams } from '@mui/x-data-grid'
+import { GridColDef } from '@mui/x-data-grid'
 import { getScore } from '@src/apis/score'
 import { Score } from '@src/types'
 import { useEffect, useState } from 'react'
-import { format } from 'date-fns'
 import styles from './scoreBoard.module.scss'
 
 const ScoreBoard = () => {
