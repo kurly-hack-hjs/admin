@@ -7,7 +7,7 @@ export type Scan = {
   id: number
   loginId: string
   orderId: number
-  timestamp: Date
+  timestamp: string | Date
   scanResult: ScanItem[]
   scanUrl: string
 }
