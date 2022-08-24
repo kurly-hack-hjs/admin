@@ -9,7 +9,8 @@
       "@recoil": ["src/recoil"],
       "@services": ["src/services"],
       "@styles/*": ["src/styles/*"],
-      "@types": ["src/types"]
+      "@types": ["src/types"],
+      "@pages": ["src/pages"]
     },
     "module": "commonjs",
     "moduleResolution": "node"
